@@ -1,88 +1,88 @@
 {
-	"questions": [
+	"intents": [
 		{
-			"question": "What is irritable bowel syndrome?",
-			"answer": "Irritable bowel syndrome (IBS) is a common disorder that affects the large intestine. Signs and symptoms include cramping, abdominal pain, bloating, gas, and diarrhea or constipation, or both. IBS is a chronic condition that you'll need to manage long term."
+			"tag": "IBS_definition",
+			"patterns": [
+				"What is IBS?",
+				"Can you explain IBS?",
+				"What does IBS stand for?",
+				"What is irritable bowel syndrome?"
+			],
+			"responses": [
+				"IBS stands for Irritable Bowel Syndrome. It's a common disorder affecting the digestive system.",
+				"IBS is a long-term condition that causes recurring discomfort in the stomach and intestines.",
+				"IBS, or irritable bowel syndrome, causes symptoms like stomach pain, bloating, diarrhea, and constipation."
+			]
 		},
-
 		{
-			"question": "What are the symptoms of irritable bowel syndrome?",
-			"answer": "The signs and symptoms of IBS vary but are usually present for a long time. The most common include abdominal pain, cramping, bloating, gas, diarrhea, and constipation. IBS is a chronic condition that you'll need to manage long term."
+			"tag": "IBS_symptoms",
+			"patterns": [
+				"What are the symptoms of IBS?",
+				"How do I know if I have IBS?",
+				"Can you list symptoms of irritable bowel syndrome?",
+				"What are common signs of IBS?"
+			],
+			"responses": [
+				"Common symptoms of IBS include abdominal pain, bloating, gas, diarrhea, and constipation.",
+				"Symptoms of IBS can vary but often include stomach cramps, bloating, and changes in bowel movements.",
+				"The main symptoms of IBS are abdominal discomfort, bloating, and irregular bowel habits, either diarrhea or constipation."
+			]
 		},
-
 		{
-			"question": "What causes irritable bowel syndrome?",
-			"answer": "The exact cause of IBS isn't known. Factors that appear to play a role include muscle contractions in the intestine, inflammation in the intestines, changes in bacteria in the gut, severe infection, and changes in the nerves in the gut."
+			"tag": "IBS_treatment",
+			"patterns": [
+				"How is IBS treated?",
+				"What can I do to relieve IBS symptoms?",
+				"What treatments are available for IBS?",
+				"Can IBS be cured?"
+			],
+			"responses": [
+				"While there's no cure for IBS, treatments like dietary changes, stress management, and medications can help manage symptoms.",
+				"Treatment for IBS often involves lifestyle changes, medications, and sometimes counseling to manage stress.",
+				"Managing IBS symptoms may include increasing fiber intake, avoiding trigger foods, and staying hydrated."
+			]
 		},
-
 		{
-			"question": "How is irritable bowel syndrome diagnosed?",
-			"answer": "There's no test to definitively diagnose IBS. Your doctor is likely to start with a complete medical history, physical exam, and tests to rule out other conditions. If you have IBS with diarrhea, you likely will be tested for gluten intolerance (celiac disease)."
+			"tag": "IBS_diet",
+			"patterns": [
+				"What foods should I avoid with IBS?",
+				"What is the best diet for IBS?",
+				"Can diet affect IBS?",
+				"What foods trigger IBS symptoms?"
+			],
+			"responses": [
+				"Certain foods can trigger IBS symptoms, like fatty foods, dairy, alcohol, and caffeine. A low-FODMAP diet may help.",
+				"Foods that often trigger IBS symptoms include high-fat foods, dairy, alcohol, and foods high in fiber. Consider talking to a dietitian about a low-FODMAP diet.",
+				"Managing IBS through diet can involve avoiding trigger foods like caffeine, dairy, and certain carbohydrates."
+			]
 		},
-
 		{
-			"question": "How is irritable bowel syndrome treated?",
-			"answer": "Treatment for IBS focuses on relieving symptoms so that you can live as normally as possible. Your doctor may suggest changes in your diet, exercise, and stress management. Medications are available for more severe symptoms."
+			"tag": "IBS_cause",
+			"patterns": [
+				"What causes IBS?",
+				"Why do people get IBS?",
+				"What are the reasons for IBS?",
+				"What leads to irritable bowel syndrome?"
+			],
+			"responses": [
+				"The exact cause of IBS is not known, but factors include stress, certain foods, and changes in gut bacteria.",
+				"IBS may be caused by a combination of abnormal gut contractions, sensitivity to certain foods, stress, or an infection.",
+				"While the cause of IBS isn't fully understood, it often involves gut-brain communication problems, stress, or bacterial imbalances."
+			]
 		},
-
 		{
-			"question": "What is the best diet for irritable bowel syndrome?",
-			"answer": "There's no one-size-fits-all diet for IBS. However, some foods may make your symptoms worse. These include foods high in fat, insoluble fiber, caffeine, and alcohol. If you have IBS, you may need to make changes in your diet to avoid these triggers."
-		},
-
-		{
-			"question": "What are the best exercises for irritable bowel syndrome?",
-			"answer": "Exercise can help reduce symptoms of IBS. Walking, jogging, swimming, and yoga are all good choices. Aim for 30 minutes of moderate exercise most days of the week."
-		},
-
-		{
-			"question": "What are the best stress management techniques for irritable bowel syndrome?",
-			"answer": "Stress can trigger IBS symptoms or make them worse. Techniques that may help include deep breathing, meditation, and progressive muscle relaxation. Regular exercise and getting enough sleep also are important."
-		},
-
-		{
-			"question": "What medications are used to treat irritable bowel syndrome?",
-			"answer": "Medications can help relieve symptoms of IBS. Your doctor may recommend fiber supplements, anti-diarrheal medications, anticholinergic medications, and antidepressants. Some medications may be used to relieve pain."
-		},
-
-		{
-			"question": "What are the complications of irritable bowel syndrome?",
-			"answer": "IBS doesn't cause changes in bowel tissue or increase your risk of colorectal cancer. But IBS can be painful and disrupt your life. In some cases, you may have to miss work or social events. You may also experience depression and anxiety."
-		},
-
-		{
-			"question": "What is the outlook for irritable bowel syndrome?",
-			"answer": "Irritable bowel syndrome is a chronic condition, but it's not life-threatening. Most people are able to control their symptoms with diet, stress management, and medications. For some people, symptoms are disabling and reduce the quality of life."
-		},
-
-		{
-			"question": "What is the difference between irritable bowel syndrome and inflammatory bowel disease?",
-			"answer": "Irritable bowel syndrome (IBS) and inflammatory bowel disease (IBD) are two different conditions. IBS is a functional disorder, meaning there's no visible sign of disease in the intestines. IBD is a chronic condition caused by an abnormal response by the body's immune system."
-		},
-
-		{
-			"question": "What is the difference between irritable bowel syndrome and celiac disease?",
-			"answer": "Irritable bowel syndrome (IBS) and celiac disease are two different conditions. IBS is a functional disorder, meaning there's no visible sign of disease in the intestines. Celiac disease is an autoimmune disorder in which the body's immune system reacts to gluten."
-		},
-
-		{
-			"question": "What is the difference between irritable bowel syndrome and lactose intolerance?",
-			"answer": "Irritable bowel syndrome (IBS) and lactose intolerance are two different conditions. IBS is a functional disorder, meaning there's no visible sign of disease in the intestines. Lactose intolerance is the inability to digest lactose, a sugar found in milk and dairy products."
-		},
-
-		{
-			"question": "What is the difference between irritable bowel syndrome and Crohn's disease?",
-			"answer": "Irritable bowel syndrome (IBS) and Crohn's disease are two different conditions. IBS is a functional disorder, meaning there's no visible sign of disease in the intestines. Crohn's disease is a chronic condition that causes inflammation in the digestive tract."
-		},
-
-		{
-			"question": "What is the difference between irritable bowel syndrome and ulcerative colitis?",
-			"answer": "Irritable bowel syndrome (IBS) and ulcerative colitis are two different conditions. IBS is a functional disorder, meaning there's no visible sign of disease in the intestines. Ulcerative colitis is a chronic condition that causes inflammation and ulcers in the lining of the colon and rectum."
-		},
-
-		{
-			"question": "What is the difference between irritable bowel syndrome and diverticulitis?",
-			"answer": "Irritable bowel syndrome (IBS) and diverticulitis are two different conditions. IBS is a functional disorder, meaning there's no visible sign of disease in the intestines. Diverticulitis is a condition in which small, bulging pouches in the digestive tract become inflamed or infected."
+			"tag": "IBS_diagnosis",
+			"patterns": [
+				"How is IBS diagnosed?",
+				"What tests are done to diagnose IBS?",
+				"Can a doctor diagnose IBS?",
+				"How do I find out if I have IBS?"
+			],
+			"responses": [
+				"IBS is usually diagnosed based on symptoms and medical history, but doctors may also run tests to rule out other conditions.",
+				"There is no single test for IBS. Doctors often diagnose it by ruling out other conditions and using criteria like the Rome IV guidelines.",
+				"A diagnosis of IBS is often made based on symptoms such as recurrent abdominal pain and changes in bowel habits."
+			]
 		}
 	]
 }
