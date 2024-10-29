@@ -1,84 +1,84 @@
 {
-	"intents": [
+	: [
 		{
-			"tag": "IBS_definition",
-			"patterns": [
+			: "IBS_definition",
+			: [
 				"What is IBS?",
 				"Can you explain IBS?",
 				"What does IBS stand for?",
 				"What is irritable bowel syndrome?"
 			],
-			"responses": [
+			: [
 				"IBS stands for Irritable Bowel Syndrome. It's a common disorder affecting the digestive system.",
 				"IBS is a long-term condition that causes recurring discomfort in the stomach and intestines.",
 				"IBS, or irritable bowel syndrome, causes symptoms like stomach pain, bloating, diarrhea, and constipation."
 			]
 		},
 		{
-			"tag": "IBS_symptoms",
-			"patterns": [
+			: "IBS_symptoms",
+			: [
 				"What are the symptoms of IBS?",
 				"How do I know if I have IBS?",
 				"Can you list symptoms of irritable bowel syndrome?",
 				"What are common signs of IBS?"
 			],
-			"responses": [
+			: [
 				"Common symptoms of IBS include abdominal pain, bloating, gas, diarrhea, and constipation.",
 				"Symptoms of IBS can vary but often include stomach cramps, bloating, and changes in bowel movements.",
 				"The main symptoms of IBS are abdominal discomfort, bloating, and irregular bowel habits, either diarrhea or constipation."
 			]
 		},
 		{
-			"tag": "IBS_treatment",
-			"patterns": [
+			: "IBS_treatment",
+			: [
 				"How is IBS treated?",
 				"What can I do to relieve IBS symptoms?",
 				"What treatments are available for IBS?",
 				"Can IBS be cured?"
 			],
-			"responses": [
+			: [
 				"While there's no cure for IBS, treatments like dietary changes, stress management, and medications can help manage symptoms.",
 				"Treatment for IBS often involves lifestyle changes, medications, and sometimes counseling to manage stress.",
 				"Managing IBS symptoms may include increasing fiber intake, avoiding trigger foods, and staying hydrated."
 			]
 		},
 		{
-			"tag": "IBS_diet",
-			"patterns": [
+			: "IBS_diet",
+			: [
 				"What foods should I avoid with IBS?",
 				"What is the best diet for IBS?",
 				"Can diet affect IBS?",
 				"What foods trigger IBS symptoms?"
 			],
-			"responses": [
+			: [
 				"Certain foods can trigger IBS symptoms, like fatty foods, dairy, alcohol, and caffeine. A low-FODMAP diet may help.",
 				"Foods that often trigger IBS symptoms include high-fat foods, dairy, alcohol, and foods high in fiber. Consider talking to a dietitian about a low-FODMAP diet.",
 				"Managing IBS through diet can involve avoiding trigger foods like caffeine, dairy, and certain carbohydrates."
 			]
 		},
 		{
-			"tag": "IBS_cause",
-			"patterns": [
+			: "IBS_cause",
+			: [
 				"What causes IBS?",
 				"Why do people get IBS?",
 				"What are the reasons for IBS?",
 				"What leads to irritable bowel syndrome?"
 			],
-			"responses": [
+			: [
 				"The exact cause of IBS is not known, but factors include stress, certain foods, and changes in gut bacteria.",
 				"IBS may be caused by a combination of abnormal gut contractions, sensitivity to certain foods, stress, or an infection.",
 				"While the cause of IBS isn't fully understood, it often involves gut-brain communication problems, stress, or bacterial imbalances."
 			]
 		},
 		{
-			"tag": "IBS_diagnosis",
-			"patterns": [
+			: "IBS_diagnosis",
+			: [
 				"How is IBS diagnosed?",
 				"What tests are done to diagnose IBS?",
 				"Can a doctor diagnose IBS?",
 				"How do I find out if I have IBS?"
 			],
-			"responses": [
+			: [
 				"IBS is usually diagnosed based on symptoms and medical history, but doctors may also run tests to rule out other conditions.",
 				"There is no single test for IBS. Doctors often diagnose it by ruling out other conditions and using criteria like the Rome IV guidelines.",
 				"A diagnosis of IBS is often made based on symptoms such as recurrent abdominal pain and changes in bowel habits."
@@ -86,305 +86,305 @@
 		},
 
 		{
-			"tag": "WhatIsIBS",
-			"patterns": [
+			: "WhatIsIBS",
+			: [
 				"What is IBS?",
 				"Can you explain IBS?",
 				"Tell me about irritable bowel syndrome."
 			],
-			"responses": [
+			: [
 				"IBS stands for Irritable Bowel Syndrome, a common disorder that affects the large intestine, causing symptoms like cramping, abdominal pain, bloating, gas, and diarrhea or constipation."
 			]
 		},
 		{
-			"tag": "IBSSymptoms",
-			"patterns": [
+			: "IBSSymptoms",
+			: [
 				"What are the symptoms of IBS?",
 				"How do I know if I have IBS?",
 				"What does IBS feel like?"
 			],
-			"responses": [
+			: [
 				"The symptoms of IBS include abdominal pain, cramping, bloating, gas, diarrhea, constipation, and mucus in the stool. The intensity of symptoms can vary from person to person."
 			]
 		},
 		{
-			"tag": "IBSTriggers",
-			"patterns": [
+			: "IBSTriggers",
+			: [
 				"What triggers IBS?",
 				"What causes IBS flare-ups?",
 				"What makes IBS worse?"
 			],
-			"responses": [
+			: [
 				"IBS can be triggered by certain foods, stress, hormonal changes, and some medications. Common food triggers include dairy, fried foods, alcohol, caffeine, and artificial sweeteners."
 			]
 		},
 		{
-			"tag": "IBSDiet",
-			"patterns": [
+			: "IBSDiet",
+			: [
 				"What should I eat if I have IBS?",
 				"What is a good diet for IBS?",
 				"What foods help with IBS?"
 			],
-			"responses": [
+			: [
 				"A diet for IBS often includes high-fiber foods, plenty of water, and low-FODMAP foods. Avoiding trigger foods like spicy, fatty, or processed foods can also help."
 			]
 		},
 		{
-			"tag": "FoodsToAvoid",
-			"patterns": [
+			: "FoodsToAvoid",
+			: [
 				"What foods should I avoid with IBS?",
 				"What not to eat with IBS?",
 				"What foods make IBS worse?"
 			],
-			"responses": [
+			: [
 				"With IBS, it's best to avoid dairy, fried foods, caffeine, alcohol, and artificial sweeteners. You should also limit high-gas foods like beans, cabbage, and carbonated drinks."
 			]
 		},
 		{
-			"tag": "TreatmentForIBS",
-			"patterns": [
+			: "TreatmentForIBS",
+			: [
 				"How do I treat IBS?",
 				"What treatments are available for IBS?",
 				"Can IBS be cured?"
 			],
-			"responses": [
+			: [
 				"There is no cure for IBS, but treatment options include dietary changes, stress management, medications, probiotics, and in some cases, psychological therapy."
 			]
 		},
 		{
-			"tag": "IBSStressManagement",
-			"patterns": [
+			: "IBSStressManagement",
+			: [
 				"How does stress affect IBS?",
 				"Can stress trigger IBS?",
 				"Does anxiety make IBS worse?"
 			],
-			"responses": [
+			: [
 				"Yes, stress and anxiety can worsen IBS symptoms. Managing stress through techniques like meditation, exercise, and therapy can help reduce flare-ups."
 			]
 		},
 		{
-			"tag": "ExerciseForIBS",
-			"patterns": [
+			: "ExerciseForIBS",
+			: [
 				"Does exercise help IBS?",
 				"What exercises are good for IBS?",
 				"Can working out help with IBS?"
 			],
-			"responses": [
+			: [
 				"Regular exercise, such as walking, yoga, or swimming, can help improve digestion and reduce stress, which may alleviate some IBS symptoms."
 			]
 		},
 		{
-			"tag": "IBSAndProbiotics",
-			"patterns": [
+			: "IBSAndProbiotics",
+			: [
 				"Do probiotics help with IBS?",
 				"Should I take probiotics for IBS?",
 				"What probiotics are good for IBS?"
 			],
-			"responses": [
+			: [
 				"Probiotics can help balance the gut bacteria and may improve IBS symptoms, particularly bloating and gas. However, not all probiotics work for everyone, so it's best to consult with a healthcare provider."
 			]
 		},
 		{
-			"tag": "MedicationsForIBS",
-			"patterns": [
+			: "MedicationsForIBS",
+			: [
 				"What medications help with IBS?",
 				"Can I take medication for IBS?",
 				"What drugs are used to treat IBS?"
 			],
-			"responses": [
+			: [
 				"Medications for IBS include antispasmodics to reduce cramping, laxatives for constipation, anti-diarrheal medications, and in some cases, antidepressants to help manage pain and stress."
 			]
 		},
 		{
-			"tag": "IBSAndSleep",
-			"patterns": [
+			: "IBSAndSleep",
+			: [
 				"How does sleep affect IBS?",
 				"Can poor sleep worsen IBS?",
 				"Does IBS affect sleep?"
 			],
-			"responses": [
+			: [
 				"Poor sleep can worsen IBS symptoms, and IBS can also interfere with sleep due to discomfort. Maintaining good sleep hygiene, such as a regular sleep schedule and a relaxing bedtime routine, can help."
 			]
 		},
 		{
-			"tag": "IBSDiagnosis",
-			"patterns": [
+			: "IBSDiagnosis",
+			: [
 				"How is IBS diagnosed?",
 				"What tests are used to diagnose IBS?",
 				"Can a doctor diagnose IBS?"
 			],
-			"responses": [
+			: [
 				"IBS is typically diagnosed based on symptoms and ruling out other conditions. Doctors may perform tests like blood tests, stool tests, or colonoscopy to exclude other issues."
 			]
 		},
 		{
-			"tag": "IBSCauses",
-			"patterns": [
+			: "IBSCauses",
+			: [
 				"What causes IBS?",
 				"Why do people get IBS?",
 				"Is IBS genetic?"
 			],
-			"responses": [
+			: [
 				"The exact cause of IBS is unknown, but it's believed to be related to a combination of factors like abnormal gut contractions, stress, changes in gut bacteria, and heightened sensitivity in the intestines."
 			]
 		},
 		{
-			"tag": "IBSandHormones",
-			"patterns": [
+			: "IBSandHormones",
+			: [
 				"Does IBS affect women more?",
 				"Can hormones trigger IBS?",
 				"How do hormones affect IBS?"
 			],
-			"responses": [
+			: [
 				"Yes, IBS affects women more than men, and hormonal changes, especially during menstruation, can trigger or worsen IBS symptoms."
 			]
 		},
 		{
-			"tag": "LivingWithIBS",
-			"patterns": [
+			: "LivingWithIBS",
+			: [
 				"How do I live with IBS?",
 				"Can I manage IBS long-term?",
 				"Is it possible to live well with IBS?"
 			],
-			"responses": [
+			: [
 				"Living with IBS involves making lifestyle adjustments such as following a suitable diet, managing stress, staying active, and identifying your personal triggers. With proper management, many people live well with IBS."
 			]
 		},
 
 		{
-			"tag": "StartQuestionnaire",
-			"patterns": [
+			: "StartQuestionnaire",
+			: [
 				"Do I have IBS?",
 				"Can you check if I have IBS?",
 				"I want to know if I have IBS."
 			],
-			"responses": [
+			: [
 				"Let's begin the IBS symptom questionnaire. I’ll ask you a few questions. Please answer with Yes or No."
 			]
 		},
 		{
-			"tag": "AbdominalPain",
-			"patterns": [
+			: "AbdominalPain",
+			: [
 				"Do you experience frequent abdominal pain or cramping?",
 				"Do you have pain in your stomach area often?"
 			],
-			"responses": ["Do you experience frequent abdominal pain or cramping?"]
+			: ["Do you experience frequent abdominal pain or cramping?"]
 		},
 		{
-			"tag": "PainReliefAfterBowelMovement",
-			"patterns": [
+			: "PainReliefAfterBowelMovement",
+			: [
 				"Does the pain get better after a bowel movement?",
 				"Does your stomach pain improve after you use the bathroom?"
 			],
-			"responses": [
+			: [
 				"Does your abdominal pain improve after a bowel movement?"
 			]
 		},
 		{
-			"tag": "BloatingOrGas",
-			"patterns": [
+			: "BloatingOrGas",
+			: [
 				"Do you feel bloated or have excess gas often?",
 				"Are you often bloated or gassy?"
 			],
-			"responses": ["Do you frequently experience bloating or excess gas?"]
+			: ["Do you frequently experience bloating or excess gas?"]
 		},
 		{
-			"tag": "ChangeInBowelHabits",
-			"patterns": [
+			: "ChangeInBowelHabits",
+			: [
 				"Have you noticed changes in your bowel movements?",
 				"Has your stool pattern changed recently?"
 			],
-			"responses": [
+			: [
 				"Have you noticed changes in your bowel movements, such as diarrhea or constipation?"
 			]
 		},
 		{
-			"tag": "Diarrhea",
-			"patterns": [
+			: "Diarrhea",
+			: [
 				"Do you experience diarrhea frequently?",
 				"Do you have loose or watery stools?"
 			],
-			"responses": ["Do you experience diarrhea frequently?"]
+			: ["Do you experience diarrhea frequently?"]
 		},
 		{
-			"tag": "Constipation",
-			"patterns": [
+			: "Constipation",
+			: [
 				"Do you suffer from constipation?",
 				"Is it hard for you to pass stools?"
 			],
-			"responses": [
+			: [
 				"Do you suffer from constipation or difficulty passing stools?"
 			]
 		},
 		{
-			"tag": "MucusInStool",
-			"patterns": [
+			: "MucusInStool",
+			: [
 				"Have you noticed mucus in your stool?",
 				"Is there mucus in your bowel movements?"
 			],
-			"responses": ["Have you noticed mucus in your stool?"]
+			: ["Have you noticed mucus in your stool?"]
 		},
 		{
-			"tag": "UrgencyToGo",
-			"patterns": [
+			: "UrgencyToGo",
+			: [
 				"Do you feel an urgent need to have a bowel movement?",
 				"Do you often rush to the bathroom?"
 			],
-			"responses": [
+			: [
 				"Do you feel a sudden urgency to have a bowel movement, even if you just went?"
 			]
 		},
 		{
-			"tag": "IncompleteBowelMovement",
-			"patterns": [
+			: "IncompleteBowelMovement",
+			: [
 				"Do you feel like your bowel movement is incomplete?",
 				"Do you feel like you didn’t fully empty your bowels?"
 			],
-			"responses": [
+			: [
 				"Do you often feel like you haven’t fully emptied your bowels after a bowel movement?"
 			]
 		},
 		{
-			"tag": "TriggersByFood",
-			"patterns": [
+			: "TriggersByFood",
+			: [
 				"Do certain foods trigger your symptoms?",
 				"Do you feel worse after eating certain foods?"
 			],
-			"responses": [
+			: [
 				"Do you feel like certain foods make your symptoms worse?"
 			]
 		},
 		{
-			"tag": "StressAndIBS",
-			"patterns": [
+			: "StressAndIBS",
+			: [
 				"Do your symptoms get worse during times of stress?",
 				"Does stress seem to trigger your IBS symptoms?"
 			],
-			"responses": [
+			: [
 				"Do your symptoms worsen during periods of stress or anxiety?"
 			]
 		},
 		{
-			"tag": "DiagnosisAndNextSteps",
-			"patterns": [
+			: "DiagnosisAndNextSteps",
+			: [
 				"Thank you for answering all the questions.",
 				"I'm done with the questionnaire."
 			],
-			"responses": [
+			: [
 				"Thank you for completing the questionnaire. Based on your answers, you may have symptoms of IBS. However, this is not a medical diagnosis. Please consult a healthcare professional for an accurate diagnosis and further advice."
 			]
 		},
 		{
-			"tag": "Goodbye",
-			"patterns": ["Thanks!", "Goodbye", "I’ll speak to a doctor."],
-			"responses": [
+			: "Goodbye",
+			: ["Thanks!", "Goodbye", "I’ll speak to a doctor."],
+			: [
 				"You're welcome! Feel free to reach out if you have more questions. Take care!"
 			]
 		},
 
 		{
-			"tag": "Greeting",
-			"patterns": [
+			: "Greeting",
+			: [
 				"Hello",
 				"Hi",
 				"Hey",
@@ -392,7 +392,7 @@
 				"Good afternoon",
 				"Good evening"
 			],
-			"responses": [
+			: [
 				"Hello! How can I assist you today?",
 				"Hi there! How can I help you?",
 				"Hey! What would you like to know about IBS today?",
@@ -401,9 +401,9 @@
 			]
 		},
 		{
-			"tag": "CasualGreeting",
-			"patterns": ["What's up?", "How's it going?", "Yo", "How are you?"],
-			"responses": [
+			: "CasualGreeting",
+			: ["What's up?", "How's it going?", "Yo", "How are you?"],
+			: [
 				"Not much! How can I help you today?",
 				"I’m doing well, thanks! How can I assist you with IBS questions?",
 				"Hey! Let me know if you need information or help with your symptoms.",
@@ -411,23 +411,23 @@
 			]
 		},
 		{
-			"tag": "PoliteGreeting",
-			"patterns": ["Good day", "Greetings", "Nice to meet you"],
-			"responses": [
+			: "PoliteGreeting",
+			: ["Good day", "Greetings", "Nice to meet you"],
+			: [
 				"Good day! How can I assist you today?",
 				"Greetings! How may I help you?",
 				"Nice to meet you too! How can I assist you regarding IBS?"
 			]
 		},
 		{
-			"tag": "CheckInGreeting",
-			"patterns": [
+			: "CheckInGreeting",
+			: [
 				"I'm back",
 				"I have more questions",
 				"I need more information",
 				"I have some follow-up questions"
 			],
-			"responses": [
+			: [
 				"Welcome back! How can I help you with your follow-up questions?",
 				"Great to see you again! What else can I assist you with?",
 				"I’m here for you! What additional questions do you have?",
@@ -436,14 +436,14 @@
 		},
 
 		{
-			"tag": "AfterService",
-			"patterns": [
+			: "AfterService",
+			: [
 				"Thank you for the help",
 				"Thanks for the information",
 				"That was helpful, thank you",
 				"I appreciate the advice"
 			],
-			"responses": [
+			: [
 				"You're welcome! I'm glad I could help. If you have any more questions, feel free to ask.",
 				"Happy to help! Let me know if you need more assistance in the future.",
 				"I'm glad the information was useful! Don't hesitate to reach out again if you need more advice.",
@@ -451,14 +451,14 @@
 			]
 		},
 		{
-			"tag": "FollowUpCheck",
-			"patterns": [
+			: "FollowUpCheck",
+			: [
 				"Can I ask more questions later?",
 				"Can I come back if I have more symptoms?",
 				"Will you be available if I need more help?",
 				"Can I reach out again if I have more concerns?"
 			],
-			"responses": [
+			: [
 				"Of course! I'm always here to help. Feel free to come back anytime with more questions.",
 				"Absolutely! You can reach out anytime you need more help or advice.",
 				"Yes, I'll be here whenever you have more symptoms or questions to discuss.",
@@ -466,14 +466,14 @@
 			]
 		},
 		{
-			"tag": "FeedbackRequest",
-			"patterns": [
+			: "FeedbackRequest",
+			: [
 				"How can I leave feedback?",
 				"Can I give feedback on this service?",
 				"Where can I provide feedback?",
 				"Can I review the service?"
 			],
-			"responses": [
+			: [
 				"We'd love to hear your feedback! Please leave a review or let us know how we can improve.",
 				"Your feedback is valuable to us! Feel free to leave a review or share your thoughts.",
 				"We appreciate any feedback you can provide. You can leave a review to help us improve.",
@@ -481,14 +481,14 @@
 			]
 		},
 		{
-			"tag": "ServiceClosure",
-			"patterns": [
+			: "ServiceClosure",
+			: [
 				"That's all for now",
 				"I don't have more questions",
 				"I'm done for today",
 				"That's it, thank you"
 			],
-			"responses": [
+			: [
 				"Great! I'm glad I could assist you. Take care and feel free to reach out if anything else comes up.",
 				"Thanks for chatting with me! Have a great day and take care of yourself.",
 				"I'm happy I could help! Don't hesitate to return if you need more information.",
@@ -497,8 +497,8 @@
 		},
 
 		{
-			"tag": "Closure",
-			"patterns": [
+			: "Closure",
+			: [
 				"Thank you for your help, goodbye",
 				"Thanks, that's all",
 				"I'm done, thank you",
@@ -506,7 +506,7 @@
 				"That was helpful, goodbye",
 				"Goodbye, thanks"
 			],
-			"responses": [
+			: [
 				"You're welcome! Take care, and feel free to reach out anytime.",
 				"Thanks for chatting with me! Have a great day!",
 				"I'm happy I could help! Goodbye for now, and reach out if you need more advice.",
@@ -516,14 +516,14 @@
 			]
 		},
 		{
-			"tag": "PoliteClosure",
-			"patterns": [
+			: "PoliteClosure",
+			: [
 				"Thanks for the service",
 				"Thanks for your support",
 				"I appreciate the help, goodbye",
 				"This was very useful, thank you"
 			],
-			"responses": [
+			: [
 				"It was a pleasure helping you! Have a great day!",
 				"You're very welcome! I'm glad I could help. Feel free to reach out anytime.",
 				"Thank you for using our service! If you ever have more questions, I’ll be here.",
@@ -532,14 +532,14 @@
 			]
 		},
 		{
-			"tag": "CasualClosure",
-			"patterns": [
+			: "CasualClosure",
+			: [
 				"Okay, cool, thanks",
 				"Alright, I'm good, thanks",
 				"Got it, thanks",
 				"Okay, bye!"
 			],
-			"responses": [
+			: [
 				"Cool! Glad I could help. Catch you later!",
 				"Alright, take care! I'm here if you need anything else.",
 				"Got it! Have a great day!",

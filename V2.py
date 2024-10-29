@@ -2,10 +2,13 @@ import json
 import numpy as np
 import random
 import nltk
+from newspaper import Article
 from nltk.stem import WordNetLemmatizer
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout
 from sklearn.preprocessing import LabelEncoder
+from tensorflow.keras.models import load_model
+import pickle
 
 nltk.download('punkt')
 nltk.download('wordnet')
@@ -90,7 +93,7 @@ model.add(Dense(len(y_train[0]), activation='softmax'))
 model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
 # Train model
-history = model.fit(X_train, y_train, epochs=200, batch_size=5, verbose=1)
+history = model.fit(X_train, y_train, epochs=200, batch_size=100, verbose=1)
 
 # Save the model
 model.save('chatbot_model.h5', history)
@@ -101,13 +104,6 @@ print("Model training complete!")
 import pickle
 pickle.dump(words, open('words.pkl', 'wb'))
 pickle.dump(classes, open('classes.pkl', 'wb'))
-
-
-import numpy as np
-from tensorflow.keras.models import load_model
-import json
-import random
-import pickle
 
 # Load necessary files
 words = pickle.load(open('words.pkl', 'rb'))
@@ -139,7 +135,7 @@ def bow(sentence, words, show_details=True):
 def predict_class(sentence):
     bow_data = bow(sentence, words)
     res = model.predict(np.array([bow_data]))[0]
-    ERROR_THRESHOLD = 0.5
+    ERROR_THRESHOLD = 0.8
     results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
 
     # Sort by probability
